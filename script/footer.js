@@ -40,6 +40,3 @@ position($(this));
 
 //绑定
 $("#float").smartFloat();
-
-// Infinite Ajax Scroll v2.3.1
-//document.write("<script type='text/javascript' src='/script/jquery-ias.min.js'></script> <script type='text/javascript'>var ias = jQuery.ias({container: '.content',item:      '.entry',pagination:'.pagination',next:      '.next-page'});ias.extension(new IASSpinnerExtension());ias.extension(new IASTriggerExtension({offset: 10}));ias.extension(new IASPagingExtension());ias.on('pageChange', function(pageNum, scrollOffset, url){pathurl=jQuery('<a/>').attr('href',url)[0].pathname.replace(/^[^\/]/,'/');ga('create', 'UA-272027-5', 'auto');ga('send', 'pageview', pathurl);history.pushState(null,null,url);});</script>");
